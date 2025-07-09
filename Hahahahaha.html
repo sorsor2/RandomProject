@@ -72,7 +72,7 @@
              width: 250px;
     height: 150px;
     box-shadow: 0 4px 8px rgba(0, 0, 2, 2);   
-                
+                margin: 
                 }
             
             table,th,td{
@@ -91,18 +91,61 @@
             border-bottom-left-radius: 8px;
             border-bottom-right-radius: 8px
             }
+            
+            header{
+                
+                background-color: #F3F0A8; padding: 25px; text-align: center; border-bottom: 2px solid #000000;
+                border:15px inset #4FFFE6;
+                font-family: Georgia, serif;
+                border-top-right-radius:25px;
+                border-top-left-radius:25px;
+                
+            }
+            nav { background-color: #FAFFB5; padding: 10px; text-align: center;border-bottom-left-radius:10px;border-bottom-right-radius:10px;box-shadow:5px 5px 5px}
+        nav a { color: black; text-decoration: none; font-weight: bold; }
+            nav ul{list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 20px;
+            }
+            
+            article { }
+        .Look { border: 5px dashed;
+}
+        #Art1 {background-color: #88E7FF; border: 1px solid #88E7FF; padding: 15px; margin-bottom: 15px;border-style:solid; border-color: black; border-radius: 20px
+}
+        .art2 {background-color: #ACA5A5; border: 5px dashed #ACA5A5; padding: 15px;margin-top:20px  ;margin-bottom: 20px;border-style:solid; border-color: black; border-radius: 20px
+}
+
+        .his {background-color:#E7C3C3; border: 5px dashed #000000; padding: 15px;margin-top:20px  ;margin-bottom: 20px;border-style:solid; border-color: black; border-radius: 20px
+}
         </style>
     
     
     </head>
     
     <body>
-        <h1>Lookism</h1>
+         <header>
+        <h1 style="align: center">Lookism and History</h1>
+        </header>
+        <nav>
+            <ul>
+            <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">That's all </a></li>
+        </ul>
+        
+        
+        
+        
+        </nav>
+        <article>
+        <h1 style="text-align: center">Lookism</h1>
+        </article>
+            <article id="Art1">
         <h3>Ordered List of Major Crews (Based on the direction)</h3>
+            
         <ol style="background-color:aliceblue;color:black;width:10%;box-shadow:5px 10px #9999;border-radius:6px">
             
             <a href="https://lookism.fandom.com/wiki/Four_Major_Crews#North:_God_Dog_(Gangbuk)"><li>North: God Dog (Gangbuk)</li></a>
-            <a href="https://lookism.fandom.com/wiki/Four_Major_Crews#South:_Workers_(Gangnam)"><li>South: Workers ๆ(Gangnam) </li>
+            <a href="https://lookism.fandom.com/wiki/Four_Major_Crews#South:_Workers_(Gangnam)"><li>South: Workers (Gangnam) </li>
             </a>
             <a href="https://lookism.fandom.com/wiki/Four_Major_Crews#East:_Hostel_(Gangdong)"><li>East: Hostel A,B (Gangdong)</li></a>
             <a href="https://lookism.fandom.com/wiki/Four_Major_Crews#West:_Big_Deal_(Gangseo)"><li>West: Big Deal (Gangseo)</li></a>
@@ -117,7 +160,7 @@
             <a href="https://lookism.fandom.com/wiki/Four_Major_Crews#South:_Workers_(Gangnam)" target="new"><li>South: Workers (Gangnam) </li></a>
         </ul>
         
-        <hr>
+    
         <button><a href="https://www.google.com/" target="new">Google</a>
         </button>
          <button id="Yaho"><a href="https://www.yahoo.com/" target="new">Yahoo</a>
@@ -129,11 +172,12 @@
         <a href="https://lookism.fandom.com/wiki/The_Hunt_for_Gun" target="new"><img src="Gun Park2.gif" id="gifgun" alt="Gun Park"></a>
         
         <a href="https://lookism.fandom.com/wiki/Goo_Kim" target="new"><img src="Kim goo.jpg" id="Kim" alt="Goo Kim"></a>
-        
+        </article>
         
         <hr>
-        <h1><strong>History</strong></h1>
-        <h4>(Mostly Warsaw Pact)</h4>
+        <h1 style="text-align: center"><strong>History</strong></h1>
+        <h4 style="text-align: center">(Post-Cold War)</h4>
+        <article class="his">
         <hr>
         <h2>Events(Click the lists for more information):</h2>
         <ul style="background-color:whitesmoke;color:red;width:10%;box-shadow:5px 10px #9999;border-radius:6px">
@@ -147,14 +191,14 @@
         
         </ul>
         
-        <a href="https://en.wikipedia.org/wiki/Russia" target="new"><img src="Flag_of_Russia.png" id="Russia" alt="RUS"></a>
-        <a href="https://en.wikipedia.org/wiki/Soviet_Union" target="new"><img src="Flag_of_the_Soviet_Union.png" id="USSR" alt="SOV"></a>
-        <a href="https://en.wikipedia.org/wiki/Georgia_(country)" target="new"><img src="Flag_of_Georgia.png.png" id="GEO" alt="GEORGE"></a>
+        <a href="https://en.wikipedia.org/wiki/Russia" target="new" ><img src="Flag_of_Russia.png" id="Russia" alt="RUS">    </a>
+        <a href="https://en.wikipedia.org/wiki/Soviet_Union" target="new"  ><img src="Flag_of_the_Soviet_Union.png" id="USSR" alt="SOV"></a>
+        <a href="https://en.wikipedia.org/wiki/Georgia_(country)" target="new" ><img src="Flag_of_Georgia.png.png" id="GEO" alt="GEORGE"></a>
         <a href="https://en.wikipedia.org/wiki/Russia" target="new"><img src="Flag_of_Yugoslavia_(1946-1992).png" id="YUGO" alt="YUG"></a>
-   <hr>
+   
         
        <h3 style= "text-align: center">Breakup of Yugoslavia</h3>
-        <table>
+        <table class="center-table">
       <tr>
             <th>Incident/Conflict</th>
             <th>Period</th>    
@@ -173,9 +217,9 @@
             <td>an estimated 140,000 deaths, with some estimates reaching 200,000</td>
             </tr>
         </table>
-        <hr>
+        
     <h3 style= "text-align: center">1993 Russian Constitutional Crisis</h3>
-            <table>
+            <table style="text-align: center">
       <tr>
             <th>Incident/Conflict</th>
             <th>Period</th>    
@@ -195,15 +239,15 @@
                 
                 </tr>
         </table>
+        
+    <h1 style="text-align: center">More on the lists above.</h1>
+    
+        </article>
+    <footer>
+    <p>P.S. Please Have Mercy</p>
     
     
-    
-    
-    
-    
-    
-    
-    
+    </footer>
     
     
     
